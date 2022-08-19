@@ -13,7 +13,6 @@ body {
 }
 
 /* headings and logo */
-
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -28,7 +27,6 @@ h1, h2 {
 }
 
 /* navigation links */
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -58,12 +56,10 @@ h1, h2 {
 }
 
 /* hero image and cover text*/
-
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    
     position: relative;
 }
 
@@ -113,7 +109,6 @@ h1, h2 {
 }
 
 /* club ethos */
-
 #club-ethos {
     height: 600px;
 }
@@ -189,7 +184,6 @@ hr {
 }
 
 /* event times*/
-
 #times {
     background: url('../images/dublin-city.webp');
     background-repeat: no-repeat;
@@ -216,7 +210,6 @@ hr {
 }
 
 /* footer */
-
 footer {
     height: 150px;
 }
@@ -237,7 +230,6 @@ footer {
 }
 
 /* gallery */
-
 #photos {
     clear: both;
     line-height: 0;
@@ -249,9 +241,18 @@ footer {
     width: 100%;
 }
 
-/* Media queries */
+/* form */
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
 
-/* For larger to medium szie from 1200px wide and down*/
+/* media queries */
+
+/* for large to medium size from 1200px wide and down*/
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
@@ -289,7 +290,7 @@ footer {
     }
 }
 
-/* For medium medium screen sizes from 950px wide and down */
+/* for medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
         
     #menu {
